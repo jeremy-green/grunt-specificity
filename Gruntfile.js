@@ -6,9 +6,9 @@ module.exports = function (grunt) {
     grunt.initConfig({
         specificity: {
           options: {
-            report: 'reports/css/cssspecificity.txt'
+            report: 'path/to/reports'
           },
-          src: ['../taoti/learning-grunt/css/main.css']
+          src: ['path/to/file.css']
         }
     });
 
